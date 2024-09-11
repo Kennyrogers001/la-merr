@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La merr</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main>
+        <h1 id="title">"La merr" strategy</h1>
+  
+        <div class="calculator">
+            <label for="holdings"><h2>insert stocks value</h2></label>
+            <input id="holdings" placeholder="$" type="text">
+        </div>
+        <div class="analytics">
+            <div id="exit-1" class="card exit-1 flex items-center justify center">EXIT 1</div>
+            <div id="exit-2" class="card exit-2 flex items-center justify center">EXIT 2</div>
+            <div id="hold" class="card hold flex items-center justify center">HOLD</div>
+
+        </div>
+  <div class="summary">
+    <p>The "la merr" strategy is a technical analysis approach for swing trading blue-chip stocks or ETFs. Here's a summary:</p>
+        <br>
+    <h2>1. Indicators Used:</h2>
+    <ul>
+        <li><strong>RSI (Relative Strength Index)</strong>: 14-period</li>
+        <li><strong>EMA (Exponential Moving Averages)</strong>: 5, 10, and 20 periods</li>
+    </ul>
+    <br>
+    <h2>2. Entry Point:</h2>
+    <ul>
+        <li>Buy when the EMA 5 crosses above EMA 20.</li>
+    </ul>
+    <br>
+    <h2>3. Exit Strategy:</h2>
+    <ul>
+        <li><strong>First Exit</strong>: Sell 20% of the position when EMA 5 crosses below EMA 10.</li>
+        <li><strong>Second Exit</strong>: Sell 40% of the position when EMA 10 crosses below EMA 20.</li>
+        <li>Hold the remaining 40% indefinitely.</li>
+    </ul>
+    <br>
+    <h2>4. Conditions:</h2>
+    <ul>
+        <li>No trades if the RSI is at or above 70 (overbought condition).</li>
+    </ul>
+    <br>
+    <h2>5. Special Rule:</h2>
+    <ul>
+        <li>The first exit (20% sell) occurs only once. If EMA 5 crosses EMA 10 more than once before EMA 10 crosses EMA 20, only the second exit (40% sell) is valid.</li>
+    </ul>
+    <br>
+    <p>This strategy focuses on capturing gains from trends while managing risk through staged exits.</p>
+</div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

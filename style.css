@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+#title{
+    text-align: center;
+    background-color: grey;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.calculator{
+    background-color: whitesmoke;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 16px;
+}
+input{
+    background-color: grey;
+    text-align: center;
+    border-radius:100% ;
+    color: white;
+    width: 25px;
+    transition: width 0.4s ease-in-out;
+    
+}
+input:focus{
+    width: 100%;
+    border-radius: 5px;
+}
+.analytics{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: gray;
+    width: 30%;
+    height: 10vh;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.summary{
+    border-radius: 15px;
+    background-color: gray;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    scale: 0.9;
+    padding: 20px;
+    
+}
+
+
+.exit-1,.exit-2{
+    box-shadow: 0 5px 10px rgba(255, 0, 0, 0.5),
+                 0 2px 5px rgba(255, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.hold{
+    box-shadow: 0 5px 10px rgba(0, 255, 0, 0.5),
+               0 2px 5px rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+}
